@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>VENDAS</title>
+</head>
+<body>
+    <h1>Verificação de Metas de Vendas</h1>
+    <form id="metaVendasForm">
+        <label for="valorVendido">Valor vendido no mês:</label>
+        <input type="number" id="valorVendido" name="valorVendido" min="0" step="0.01" required><br>
+        <label for="meta">Meta de vendas do mês:</label>
+        <input type="number" id="meta" name="meta" min="0" step="0.01" required><br>
+        <label for="metaMinima">Meta mínima de vendas do mês:</label>
+        <input type="number" id="metaMinima" name="metaMinima" min="0" step="0.01" required><br>
+        <button type="submit">Verificar</button>
+    </form>
+    <script src="EX10.JS" ></script>
+    <div id="resultado"></div>
+</body>
+</html>
